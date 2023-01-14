@@ -711,20 +711,20 @@ b {
   }
 
   .reg-form__input {
-    height: 30px;
+    height: 2.5rem;
     border-radius: 5px;
   }
 
   .reg-form__button {
     width: 100%;
-    height: 1.875rem;
+    height: 2.5rem;
     border-radius: 0.3125rem;
     font-size: 0.875rem;
   }
 
   .reg-form__button--reg {
     margin-top: 1.375rem;
-    margin-bottom: 1.875rem;
+    margin-bottom: 2.5rem;
   }
 
   .reg-form__title {
@@ -752,6 +752,10 @@ b {
     height: 2.5rem;
   }
 
+  .user-form-info__button {
+    height: 2.5rem;
+  }
+
   .user-info__grid-cnt {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
@@ -769,6 +773,12 @@ b {
 
   .input-file-text {
     width: 300px;
+    height: 2.5rem;
+  }
+
+  .input-file-btn {
+    height: 2.5rem;
+    padding: 10px 20px;
   }
 
   .acc-active {
@@ -795,13 +805,11 @@ b {
   }
 
   .reg-form__input {
-    height: 1.25rem;
     border-radius: 5px;
   }
 
   .reg-form__button {
     width: 100%;
-    height: 1.25rem;
     border-radius: 0.3125rem;
     font-size: 0.6875rem;
   }
@@ -830,7 +838,6 @@ b {
   }
 
   .user-form-info__input {
-    height: 1.25rem;
     border-radius: 0.3125rem;
   }
 
@@ -839,13 +846,10 @@ b {
   }
 
   .input-file-text {
-    height: 20px;
     border-radius: 0.3125rem;
   }
 
   .input-file-btn {
-    height: 1.25rem;
     border-radius: 0.3125rem;
-    padding: 0 20px;
   }
 }
